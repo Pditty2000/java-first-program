@@ -22,6 +22,6 @@ public class App
         for (int number: numbers) {
             sum += number;
         }
-        return sum
+        return sum;
     }
 }
