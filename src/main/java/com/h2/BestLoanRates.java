@@ -26,12 +26,11 @@ public class BestLoanRates {
             System.out.println("Best Available Rate: " + bestRate + "%");
         }
 
-        public static float getRates( int loanTermInYears){
-            if (bestRates.containsKey(loanTermInYears)) {
-                return bestRates.get(loanTermInYears);
-            }
-            return 0.0f;
-        }
-        ;
+//        public static float getRates( int loanTermInYears){
+//            if (bestRates.containsKey(loanTermInYears)) {
+//                return bestRates.get(loanTermInYears);
+//            }
+//            return 0.0f;
+//        }
     }
 }
